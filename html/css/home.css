@@ -1,0 +1,187 @@
+#wrapper{background-color: #ECECEC;}
+.header{border-bottom: 4px #039D6D solid; }
+.navbar-brand-logo{
+	font-size: 26px;
+	max-width: 265px;
+	overflow: hidden;
+	color: #02b980;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right:15px;
+	margin-left: -15px;
+	float: left; 
+}
+.nav-form{float: left;}
+.nav-text{
+	margin-top: 20px;
+	padding: 6px 12px;
+	width: 400px;
+	height: 40px;
+	line-height: 28px;
+
+}
+.nav-btn{
+	background-color: #039D6D;
+	margin-top: 18px;
+	width: 100px;
+	height: 42px;
+	float: left;
+	position: relative;
+	left: 496px;
+}
+.login-top ul {
+	list-style: none;
+	}
+.login-top ul li{
+	float: left;
+	margin-top: 20px;
+}
+.login-top ul li a {
+	font-size: 17px;
+	color: #888888;
+	padding: 20px;
+
+
+}
+.login-top ul li a p{
+	margin-left: 16px;}
+.login-top ul li a:hover{color:#039D6D };
+
+
+
+.banner{
+	margin-top: 25px;
+	margin-right: 20px;
+
+}
+.son-ul{
+	width: 300px !important;
+}
+.son-ul li {
+	padding: 10px;
+	display: inline !important;
+	float: left;
+}
+
+.banner>img{
+	width: 749px;
+}
+.footer{
+	height: 200px;
+	width: auto;
+	border: 2px red solid;
+}
+.navbar-nav > li .dropdown-menu li a{
+	font-family: 微软雅黑;
+	color:#FFF;
+}
+.navbar-nav > li .dropdown-menu li a:hover {
+	color: #1edd8e;
+	background-color: #575959;
+}
+.left-con{
+	margin: 25px 0 25px 0;
+}
+.es-box {
+	margin-top: 30px;
+	background-color: #FFF;
+	padding: 20px 25px 25px 25px;
+	background-color: #FFF;
+}
+.es-box>h2{
+	margin-left: -25px;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	padding-left: 20px;
+	border-left: 4px solid #00b780;
+	color: #222;
+	font-size: 24px;
+}
+.es-box .more {
+	position: absolute;
+	top: 406px;
+	right: 50px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #02b980;
+}
+.es-box>ul{
+	list-style: none;
+}
+.news li{
+	margin-bottom: 20px;
+}
+.news ul{margin-left: -52px;}
+.news li a{
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #222;
+	display: block;
+	overflow: hidden;
+	line-height: 20px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news li a:hover{
+	text-decoration: none;
+}
+.news li a span{
+	color: #0082D9;
+}
+.news li em{
+	float: right;
+	width: 85px;
+	text-align: right;
+	font-style: normal;
+	color: #a9a9a9;
+}
+.left-con>.news{
+
+}
+.right-con{
+	width: 330px;
+	margin: 10px 0 10px 20px;
+	
+}
+.right-box{
+	width: 300px;
+	height: 320px;
+	
+	margin-left: 13px;
+}
+.course-buttom{
+padding: 15px;
+background: #eaeaea;
+width: 217px;
+}
+.course-buttom h3{
+	font-size: 16px;
+line-height: 24px;
+height: 48px;
+overflow: hidden;
+color: #222;
+
+}
+.course ul{
+/* 	margin-left: -55px; */
+}
+.es-course-list{
+	margin-bottom: 20px;
+}
+/*home-menu*/
+.home-menu ul{
+	background-color: #02B980;
+}
+.home-menu ul li a{
+	color: #fff;
+	border-radius: 0px !important;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus{
+	background-color: #039D6D !important;
+}
+.nav-pills > li.active > a{
+	background-color: #039D6D !important;
+}
