@@ -7,527 +7,718 @@
 	<link href="css/font-awesome.css"  rel="stylesheet">
 	<link href="css/module.css" rel="stylesheet" type="text/css">
 	<link href="css/home.css" rel="stylesheet" type="text/css">
+	<link href="css/cssreset.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body class="homepage">
 	<div id="wrapper" class="mw">
-		<div class="container home-menu ">
-			<ul class="nav nav-pills" role="tablist">
-			  <li role="presentation" class="active"><a href="#">首页</a></li>
-			  <!-- <li role="presentation"><a href="#">课程分类</a></li> -->
-			  <li role="presentation" class="dropdown">
-			    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-			      课程分类 <span class="caret"></span>
-			    </a>
-			    <ul class="dropdown-menu" role="menu">
-				  <li><a href=""  >ES安装教程</a></li>
-	              <li><a href=""  >ES使用帮助</a></li>
-	              <li><a href=""  >ES主题及应用开发</a></li>
-	              <li><a href=""  >网校运营知识</a></li>
-			    </ul>
-			  </li>
-			  <li role="presentation"><a href="#">Messages</a></li>
-			  <li role="presentation"><a href="#">Profile</a></li>
-			  <li role="presentation"><a href="#">Messages</a></li>
-			  <li role="presentation"><a href="#">Profile</a></li>
-			  <li role="presentation"><a href="#">Messages</a></li>
-			  <li role="presentation"><a href="#">Profile</a></li>
-			</ul>
-		</div>
 		<div class="header">
-			<div class="container">
-				<div class="container-gap">
-					<div class="navbar-header">
-						
-         			    <a class="navbar-brand-logo" href="">气球鱼学院</a>
-				        <form class="form-inline nav-form " role="search" >
-				            <div class="form-group">
-				             
-				            <button type="submit" class="nav-btn"><i style="color:#FFF" class="icon-search icon-2x "></i></button>
-				            <input type="search" class=" nav-text" placeholder="" name="q">
-				            </div>
-				        </form>
+			<div class="header-line"></div>
+			<div class="headwrap">
+				<div class="container">
+					<div class="container-gap">
+						<div class="navbar-header">
+							<a class="navbar-brand-logo" href="">气球鱼学院</a>
+							<form class="form-inline nav-form " role="search" >
+								<div class="form-group">
+									<input type="search" class=" nav-text" placeholder="" name="q">
+									<button type="submit" class="nav-btn"> <i style="color:#FFF ;font-size:30px;font-weight:lighter;" class="icon-search  "></i>
+									</button>
+
+								</div>
+							</form>
+						</div>
+						<div class="login-top">
+							<ul class="navbar-right">
+								<li>
+									<a href="#">
+										<span class="icon-user icon-style"></span>
+										<p>登录</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="icon-user-md icon-style"></span>
+										<p>注册</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+
 					</div>
-				    <div class="login-top">
-			          <ul class="navbar-right">
-			            <li><a href="#"> <span class="icon-user icon-2x"></span>
-			              <p>登录</p>
-			              </a></li>
-			            <li><a href="#"> <span class="icon-user-md icon-2x"></span>
-			              <p>注册</p>
-			              </a></li>
-			          </ul>
-			        </div>
-			        
-				</div>
 
-				<div class="collapse navbar-collapse  ">
-					
-     				 <ul class="nav navbar-nav ">
-			          <li > <a href=""   >首页 </a> </li>
-			          <li class="dropdown" > <a href="" class="dropdown-toggle" data-toggle="dropdown" >课程分类 <b class="caret"></b></a>
-			            <ul class="dropdown-menu son-ul" role="menu">
-			              <li><a href=""  >ES安装教程</a></li>
-			              <li><a href=""  >ES使用帮助</a></li>
-			              <li><a href=""  >ES主题及应用开发</a></li>
-			              <li><a href=""  >网校运营知识</a></li>
-			            </ul>
-			          </li>
-			          <li > <a href="" class="dropdown-toggle" data-toggle="dropdown"  >资讯 <b class="caret"></b></a>
-			            <ul class="dropdown-menu son-ul" role="menu">
-			              <li><a href=""  >全部资讯</a></li>
-			              <li><a href=""  >ES动态</a></li>
-			              <li><a href=""  >行业动态</a></li>
-			              <li><a href=""  >老魏说</a></li>
-			            </ul>
-			          </li>
-			          <li > <a href="" class="dropdown-toggle" data-toggle="dropdown" >社区 <b class="caret"></b></a>
-			            <ul class="dropdown-menu son-ul" role="menu">
-			              <li><a href=""  >所有社区</a></li>
-			              <li><a href=""  >开发者社区</a></li>
-			              <li><a href=""  >云平台用户反馈</a></li>
-			              <li><a href=""  >ES安装讨论组</a></li>
-			              <li><a href=""  >给ES提建议</a></li>
-			              <li><a href=""  >气球鱼教务中心</a></li>
-			            </ul>
-			          </li>
-			          <li class=""> <a href=""  >会员专区 </a> </li>
-			          <li class=""> <a href=""  >开放云平台 </a> </li>
-			          <li ><a href="" class="dropdown-toggle" data-toggle="dropdown" >关于我们 <b class="caret"></b></a>
-			            <ul class="dropdown-menu son-ul" role="menu">
-			              <li><a href=""  >加入我们</a></li>
-			              <li><a href=""  >气球鱼学院</a></li>
-			              <li><a href="" >EduSoho官网网站</a></li>
-			            </ul>
-			          </li>
-			          <li class=""> <a href=""   >移动端 </a> </li>
-			        </ul>
+					<div class="collapse navbar-collapse">
 
-			      </div>
-			</div>
-		</div>
-		<div id="main" class="container">
-			<div class="row">
-				<div class="col-xs-8 left-con">
-					<div class="banner">
-						<img src="images/1.png" alt="">
+						<ul class="nav navbar-nav mw">
+							<li >
+								<a href=""   >首页</a>
+							</li>
+							<li class="dropdown" >
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">
+									课程分类 <b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu son-ul" role="menu">
+									<li>
+										<a href=""  >ES安装教程</a>
+									</li>
+									<li>
+										<a href=""  >ES使用帮助</a>
+									</li>
+									<li>
+										<a href=""  >ES主题及应用开发</a>
+									</li>
+									<li>
+										<a href=""  >网校运营知识</a>
+									</li>
+								</ul>
+							</li>
+							<li >
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">
+									资讯 <b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu son-ul" role="menu">
+									<li>
+										<a href=""  >全部资讯</a>
+									</li>
+									<li>
+										<a href=""  >ES动态</a>
+									</li>
+									<li>
+										<a href=""  >行业动态</a>
+									</li>
+									<li>
+										<a href=""  >老魏说</a>
+									</li>
+								</ul>
+							</li>
+							<li >
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">
+									社区
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu son-ul" role="menu">
+									<li>
+										<a href=""  >所有社区</a>
+									</li>
+									<li>
+										<a href=""  >开发者社区</a>
+									</li>
+									<li>
+										<a href=""  >云平台用户反馈</a>
+									</li>
+									<li>
+										<a href=""  >ES安装讨论组</a>
+									</li>
+									<li>
+										<a href=""  >给ES提建议</a>
+									</li>
+									<li>
+										<a href=""  >气球鱼教务中心</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href=""  >会员专区</a>
+							</li>
+							<li class="">
+								<a href=""  >开放云平台</a>
+							</li>
+							<li >
+								<a href="" class="dropdown-toggle" data-toggle="dropdown" >
+									关于我们
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu son-ul" role="menu">
+									<li>
+										<a href=""  >加入我们</a>
+									</li>
+									<li>
+										<a href=""  >气球鱼学院</a>
+									</li>
+									<li>
+										<a href="" >EduSoho官网网站</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href=""   >移动端</a>
+							</li>
+						</ul>
+
 					</div>
-					<div class="es-box news">
-			          <h2>最新资讯</h2>
-			           <a class="more" href="">更多&gt;</a>
-			          <ul class="row">
-			            <li class="col-md-6"> <em>11-18 15:50 </em> <a href=""> <span>[行业资讯]</span>优能与新浪微博战略合作 教育机构瞄准微博营销 </a> </li>
-			            <li class="col-md-6"> <em>11-14 14:46 </em> <a href=""> <span>[ES动态]</span>阔知学堂iOS版升级至v2.0.0，手机端全线升级！ </a> </li>
-			            <li class="col-md-6"> <em>11-13 09:41 </em> <a href=""> <span>[行业资讯]</span>谁是K12教育平板的未来？美国Chromebook销量超iPad </a> </li>
-			            <li class="col-md-6"> <em>11-10 11:02 </em> <a href=""> <span>[行业资讯]</span>未来3-5年全球在线教育将占40%，智慧教育重点工程项目大起底！ </a> </li>
-			          </ul>
-			         
-			        </div>
-			       <style type="text/css">
-						.row-bg{
-							margin-left: 0px !important;
-							margin-right: 0px !important;
-							background-color: #fff;
-							margin-top: 20px;
-							margin-bottom: 20px;
-						}
-						.row-bg img{
-
-						}
-			       </style>
-			        	<div class="row row-bg">
-			        		<h1 class="mt10 ml20 mr10">
-			        			二次开发课程
-			        		</h1>
-			        		<div style="padding-right:15px; padding-left:15px;">
-			        			<div class="col-xs-4">
-				        			 <img src="images/kc.png"  >
-				        		</div>
-				        		<div class="col-xs-4">
-				        			 <img src="images/kc.png"  >
-				        		</div>
-				        		<div class="col-xs-4">
-				        			 <img src="images/kc.png"  >
-				        		</div>
-				        		</div>
-			        	
-			        	</div>
-			       
-        			<div class="es-box course">
-        				<h2>二次开发课程</h2>
-        				<ul class="row">
-        					<li class="col-xs-4 es-course  ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p class="" > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div  > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom">
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom" >
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-				            <li class="col-xs-4 es-course ">
-				              <div class="es-course-list">
-				                <div > <img src="images/kc.png"  > </div>
-				                <div class="course-buttom" >
-				                  <h3>EduSoho主题制作流程攻略</h3>
-				                  <p > <span >¥0.50</span> <span >6人报名</span> </p>
-				                  <span> <a  href="">泰微课啡鸟</a> </span> </div>
-				               
-				              </div>
-				            </li>
-
-        				</ul>
-        				 <a class="more" href="/course/explore/50">更多&gt;</a> 
-        			</div>
-        			<div class="es-box">
-        				<h2>ES安装教程</h2>
-        				<ul class="row">
-        					 <li class="col-sm-6 col-md-4 es-course-list">
-				              <div>
-				                <div> <img src=""  > </div>
-				                <div >
-				                  <h3>Edusoho高级篇</h3>
-				                  <p > <span >免费</span> <span>109人报名</span> </p>
-				                  <span> <a  href="">dreamhack</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img src="images/kc.png"> <span>dreamhack</span> <span>EduSoho技术支...</span> </div>
-				                  <p>EduSoho技术支持</p>
-				                  <span></span>
-				                  <h3>Edusoho高...</h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            <li class="col-sm-6 col-md-4 es-course-list">
-				              <div>
-				                <div> <img src=""  > </div>
-				                <div >
-				                  <h3>Edusoho高级篇</h3>
-				                  <p > <span >免费</span> <span>109人报名</span> </p>
-				                  <span> <a  href="">dreamhack</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img src="images/kc.png"> <span>dreamhack</span> <span>EduSoho技术支...</span> </div>
-				                  <p>EduSoho技术支持</p>
-				                  <span></span>
-				                  <h3>Edusoho高...</h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-        				</ul>
-        				<a class="more" href="">更多&gt;</a>
-        			</div>
-        			<div class="es-box">
-        				<h2>ES使用帮助</h2>
-        				<ul class="row">
-        					<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            	<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            	<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            	<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            	<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-				            	<li class=" col-xs-4">
-				              <div>
-				                <div > <img src="images/kc.png" > </div>
-				                <div >
-				                  <h3>如何使用会员功能？</h3>
-				                  <p > <span >免费</span> <span >19人报名</span> </p>
-				                  <span> <a  href="">格洛咪</a> </span> </div>
-				                <div > <a href="">
-				                  <div > <img  src=""> <span>格洛咪</span> <span>ES官方运营...</span> </div>
-				                  <p>我是气球鱼哒小小装修工~(≧▽≦)/~啦啦啦...</p>
-				                  <span ></span>
-				                  <h3></h3>
-				                  </a> </div>
-				              </div>
-				            </li>
-        				</ul>
-        				<a class="more" href="/course/explore/34">更多&gt;</a> </div>
-        			</div>
-				
-				<div class="col-xs-4 right-con">
-					<div class="es-box right-box ">
-			          <div class="actions">
-			            <h2>账号登录</h2>
-			            <form method="post" >
-			              <p>
-			                <input class="form-control"  type="text" name="_username" value=""  />
-			              </p>
-			              <p>
-			                <input class="form-control" type="password" name="_password" />
-			              </p>
-			              <button type="submit" class="btn" >登录</button>
-			              <label>
-			                <input type="checkbox" name="_remember_me" checked="checked">
-			                下次自动登录 </label>
-			              <span class="pull-right"><a href="">忘记密码 </a>&nbsp;|&nbsp;<a href="" >注册</a></span>
-			             
-			            </form>
-			            <div > 合作账号登录 <a  href="" ><img src=''></a> </div>
-			          </div>
-			        </div>
-			        <div class="es-box">
-			        	<h2>最热小组</h2>
-			        	<a href="/group/search_group" class="more">更多&gt;</a>
-			        	<ul class="row">
-			        		<li class="col-xs-12">
-				              <div class="panel">
-				                <div > <a href="" title="ES云平台开发者社区" > <img src="" alt="ES云平台开发者社区" style="width:58px;height:58px;" > </a>
-				                  <div >
-				                    <p style="margin:0 0 10px;"><a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a></p>
-				                    <div > 45个成员&nbsp;
-				                      9个话题 </div>
-				                  </div>
-				                </div>
-				              </div>
-				            </li>
-				            <li class="col-xs-12">
-				              <div class="panel">
-				                <div > <a href="" title="ES云平台开发者社区" > <img src="" alt="ES云平台开发者社区" style="width:58px;height:58px;" > </a>
-				                  <div >
-				                    <p style="margin:0 0 10px;"><a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a></p>
-				                    <div > 45个成员&nbsp;
-				                      9个话题 </div>
-				                  </div>
-				                </div>
-				              </div>
-				            </li>
-				            <li class="col-xs-12">
-				              <div class="panel">
-				                <div > <a href="" title="ES云平台开发者社区" > <img src="" alt="ES云平台开发者社区" style="width:58px;height:58px;" > </a>
-				                  <div >
-				                    <p style="margin:0 0 10px;"><a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a></p>
-				                    <div > 45个成员&nbsp;
-				                      9个话题 </div>
-				                  </div>
-				                </div>
-				              </div>
-				            </li>
-				            <li class="col-xs-12">
-				              <div class="panel">
-				                <div > <a href="" title="ES云平台开发者社区" > <img src="" alt="ES云平台开发者社区" style="width:58px;height:58px;" > </a>
-				                  <div >
-				                    <p style="margin:0 0 10px;"><a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a></p>
-				                    <div > 45个成员&nbsp;
-				                      9个话题 </div>
-				                  </div>
-				                </div>
-				              </div>
-				            </li>
-				            <li class="col-xs-12">
-				              <div class="panel">
-				                <div > <a href="" title="ES云平台开发者社区" > <img src="" alt="ES云平台开发者社区" style="width:58px;height:58px;" > </a>
-				                  <div >
-				                    <p style="margin:0 0 10px;"><a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a></p>
-				                    <div > 45个成员&nbsp;
-				                      9个话题 </div>
-				                  </div>
-				                </div>
-				              </div>
-				            </li>
-			        	</ul>
-			        </div>
-			        <div class="es-box ">
-			          <h2>学习动态</h2>
-			          <ul >
-			            <li > <a  href=""> <img src=""> </a>
-			              <div> <a href="">格洛咪</a> 加入了课程 EduSoho主题制作流程攻略... </div>
-			            </li>
-			            <li > <a  href=""> <img src=""> </a>
-			              <div> <a href="">格洛咪</a> 加入了课程 EduSoho主题制作流程攻略... </div>
-			            </li>
-			            <li > <a  href=""> <img src=""> </a>
-			              <div> <a href="">格洛咪</a> 加入了课程 EduSoho主题制作流程攻略... </div>
-			            </li>
-			            <li > <a  href=""> <img src=""> </a>
-			              <div> <a href="">格洛咪</a> 加入了课程 EduSoho主题制作流程攻略... </div>
-			            </li>
-			          </ul>
-			        </div>
 				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<div class="botton-logo">气球鱼学院</div>
-		</div>
-	</div>
-	<style type="text/css">
-		.test ul li{
-			list-style: none;
-			width: 100px;
-			float: left;
+			<div id="main" class="container">
+				<div class="row">
+					<div class="col-xs-8 left-con">
+						<div class="banner">
+							<!-- <img src="images/1.png" alt="">
+							-->
+							<!-- ++++轮播图 -->
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+								</ol>
 
-		}
-	</style>
-	<div class="test">
-		<ul >
-		<li>
-			<a href=""></a>
-			<ul>
-				<li>test</li>
-				<li>test</li>
-				<li>test</li>
-				<li>test</li>
-			</ul>
-		</li>
-		<li>首页</li>
-		<li>首页</li>
-		<li>首页</li>
-		<li>首页</li>
-	</ul>
-	</div>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="images/1.png" alt="">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="images/2.png" alt="">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="images/3.png" alt="">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="images/4.jpg" alt="">
+										<div class="carousel-caption"></div>
+									</div>
 
-	<div class="test1 container">
-		<h1>气球鱼学院</h1>
-		<a href="">更多</a>
-	</div>
-      	<div>
-	    	<span></span>
-	</div>
-	<div>
-	  <img src="">
-	  <img src="">
-	</div>
-	<div>
-	</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+							<!-- 	++++ -->
+						</div>
+						<div class="es-box news">
+							<h2>最新资讯</h2>
+							<a class="more" href="">更多&gt;</a>
+							<ul class="row">
+								<li class="col-md-6"> <em>11-18 15:50</em>
+									<a href="">
+										<span>[行业资讯]</span>
+										优能与新浪微博战略合作 教育机构瞄准微博营销
+									</a>
+								</li>
+								<li class="col-md-6"> <em>11-14 14:46</em>
+									<a href="">
+										<span>[ES动态]</span>
+										阔知学堂iOS版升级至v2.0.0，手机端全线升级！
+									</a>
+								</li>
+								<li class="col-md-6">
+									<em>11-13 09:41</em>
+									<a href="">
+										<span>[行业资讯]</span>
+										谁是K12教育平板的未来？美国Chromebook销量超iPad
+									</a>
+								</li>
+								<li class="col-md-6">
+									<em>11-10 11:02</em>
+									<a href="">
+										<span>[行业资讯]</span>
+										未来3-5年全球在线教育将占40%，智慧教育重点工程项目大起底！
+									</a>
+								</li>
+							</ul>
+
+						</div>
+
+						<div class="es-box course">
+							<h2>二次开发课程</h2>
+							<ul class="row">
+								<li class="col-xs-4 es-course  ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num">6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p class="" >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num">6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num">¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div  >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom">
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom" >
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num" >¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-xs-4 es-course ">
+									<div class="es-course-list">
+										<div >
+											<img src="images/kc.png"  ></div>
+										<div class="course-buttom" >
+											<h3>EduSoho主题制作流程攻略</h3>
+											<p >
+												<span class="price-num">¥0.50</span>
+												<span class="student-num" >6人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">泰微课啡鸟</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+
+							</ul>
+							<a class="more" href="/course/explore/50">更多&gt;</a>
+						</div>
+						<div class="es-box es-anzhuang">
+							<h2>ES安装教程</h2>
+							<ul class="row">
+								<li class="col-sm-6 col-md-4 es-course-list">
+									<div>
+										<div>
+											<img src="images/kc.png"  ></div>
+										<div >
+											<h3>Edusoho高级篇</h3>
+											<p >
+												<span class="price-num" >免费</span>
+												<span class="student-num">109人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">dreamhack</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class="col-sm-6 col-md-4 es-course-list">
+									<div>
+										<div>
+											<img src="images/kc.png"  ></div>
+										<div >
+											<h3>Edusoho高级篇</h3>
+											<p >
+												<span class="price-num" >免费</span>
+												<span class="student-num">109人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">dreamhack</a>
+											</span>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a class="more" href="">更多&gt;</a>
+						</div>
+						<div class="es-box es-help">
+							<h2>ES使用帮助</h2>
+							<ul class="row">
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num" >免费</span>
+												<span class="student-num">19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num">免费</span>
+												<span class="student-num" >19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num">免费</span>
+												<span class="student-num">19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num">免费</span>
+												<span class="student-num">19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num">免费</span>
+												<span class="student-num">19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+								<li class=" col-xs-4">
+									<div>
+										<div >
+											<img src="images/kc.png" ></div>
+										<div >
+											<h3>如何使用会员功能？</h3>
+											<p >
+												<span class="price-num">免费</span>
+												<span class="student-num">19人报名</span>
+											</p>
+											<span class="tname">
+												<a  href="">格洛咪</a>
+											</span>
+										</div>
+
+									</div>
+								</li>
+							</ul>
+							<a class="more" href="/course/explore/34">更多&gt;</a>
+						</div>
+					</div>
+
+					<div class="col-xs-4 right-con">
+						<div class="es-box login-box ">
+							<div class="actions">
+								<h2>账号登录</h2>
+								<form method="post" >
+									<p>
+										<input class="form-control"  type="text" name="_username" value=""  />
+									</p>
+									<p>
+										<input class="form-control" type="password" name="_password" />
+									</p>
+									<p>
+										<button type="submit" class="btn w" >登录</button>
+									</p>
+									<label>
+										<input type="checkbox" name="_remember_me" checked="checked">下次自动登录</label>
+									<span class="pull-right">
+										<a href="">忘记密码</a>
+										&nbsp;|&nbsp;
+										<a class="crff5" href="" >注册</a>
+									</span>
+
+								</form>
+								<div class="mt20">
+									合作账号登录
+									<a class="floatr"  href="" >
+										<img src='images/es.png'></a>
+								</div>
+							</div>
+						</div>
+						<div class="es-box right-side">
+							<h2>最热小组</h2>
+							<a href="/group/search_group" class="more">更多&gt;</a>
+							<ul class="row">
+								<li class="col-xs-12">
+									<div class="panel">
+										<div >
+											<a href="" title="ES云平台开发者社区" >
+												<img src="images/jy.png" alt="ES云平台开发者社区" style="width:58px;height:58px;" ></a>
+											<div class="media-body">
+												<p style="margin:0 0 10px;">
+													<a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a>
+												</p>
+												<div  class="student-num">
+													45个成员&nbsp;
+				                      9个话题
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-12">
+									<div class="panel">
+										<div >
+											<a href="" title="ES云平台开发者社区" >
+												<img src="images/jy.png" alt="ES云平台开发者社区" style="width:58px;height:58px;" ></a>
+											<div class="media-body" >
+												<p style="margin:0 0 10px;">
+													<a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a>
+												</p>
+												<div  class="student-num">
+													45个成员&nbsp;
+				                      9个话题
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-12">
+									<div class="panel">
+										<div>
+											<a href="" title="ES云平台开发者社区" >
+												<img src="images/jy.png" alt="ES云平台开发者社区" style="width:58px;height:58px;" ></a>
+											<div  class="media-body" >
+												<p style="margin:0 0 10px;">
+													<a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a>
+												</p>
+												<div  class="student-num">
+													45个成员&nbsp;
+				                      9个话题
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-12">
+									<div class="panel">
+										<div >
+											<a href="" title="ES云平台开发者社区" >
+												<img src="images/jy.png" alt="ES云平台开发者社区" style="width:58px;height:58px;" ></a>
+											<div  class="media-body">
+												<p style="margin:0 0 10px;">
+													<a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a>
+												</p>
+												<div  class="student-num">
+													45个成员&nbsp;
+				                      9个话题
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-12">
+									<div class="panel">
+										<div >
+											<a href="" title="ES云平台开发者社区" >
+												<img src="images/jy.png" alt="ES云平台开发者社区" style="width:58px;height:58px;" ></a>
+											<div  class="media-body">
+												<p style="margin:0 0 10px;">
+													<a  href="" title="ES云平台开发者社区">ES云平台开发者社区</a>
+												</p>
+												<div  class="student-num">
+													45个成员&nbsp;
+				                      9个话题
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="es-box right-side">
+							<h2>学习动态</h2>
+							<ul >
+								<li class="row mb30" >
+									<a class="col-xs-3" href="">
+										<img style="width:58px;height:58px;" src="images/jy.png"></a>
+									<div class="col-xs-9 dt-body">
+										<a href="">格洛咪</a>
+										加入了课程 EduSoho主题制作流程攻略...
+									</div>
+								</li>
+								<li class="row mb30" >
+									<a class="col-xs-3" href="">
+										<img style="width:58px;height:58px;" src="images/jy.png"></a>
+									<div class="col-xs-9 dt-body">
+										<a href="">格洛咪</a>
+										加入了课程 EduSoho主题制作流程攻略...
+									</div>
+								</li>
+								<li class="row mb30" >
+									<a class="col-xs-3" href="">
+										<img style="width:58px;height:58px;" src="images/jy.png"></a>
+									<div class="col-xs-9 dt-body">
+										<a href="">格洛咪</a>
+										加入了课程 EduSoho主题制作流程攻略...
+									</div>
+								</li>
+								<li class="row mb30" >
+									<a class="col-xs-3" href="">
+										<img style="width:58px;height:58px;" src="images/jy.png"></a>
+									<div class="col-xs-9 dt-body">
+										<a href="">格洛咪</a>
+										加入了课程 EduSoho主题制作流程攻略...
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="bottom-logo">气球鱼学院</div>
+				<div class="banquan">
+					<p>
+						<a href="">版权信息</a>
+					</p>
+					<p >
+						Powered by
+						<a href="" target="_blank">EduSoho v4.4.0</a>
+						©2013-2014
+						<a href="" target="_blank">气球鱼学院</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
 </body>
-</html>
+	</html>
