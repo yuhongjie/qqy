@@ -10,6 +10,33 @@
 	<link href="css/cssreset.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+<!--	<script type="text/javascript">
+			$(document).ready(function(){
+
+			  $(".jseg").mouseover(function(){
+			  	var x=$(".jseg").attr("id");
+				/*alert(x);*/
+			  	$(document).click(function (e) { 
+					var v_id = $(e.target).attr('id'); 
+					} 
+			    $(".hidden-con").slideDown(100);
+			  });
+			  $(".jseg").mouseout(function(){
+			    $(".hidden-con").slideUp(100);
+			  });
+			});
+	</script>-->
+
+	<script>
+			$(document).ready(function(){
+			 $(".jseg").mouseover(function(){
+			 var jsegid = $(this).attr("id");
+			 var hid=$('#'+jsedid).find("div").attr("id");
+			 alert(hid);
+			 /*$(hid).slideDown(100);*/
+			 })
+			 });
+	</script>
 </head>
 <body class="homepage">
 	<div id="wrapper" class="mw">
@@ -60,16 +87,16 @@
 								</a>
 								<ul class="dropdown-menu son-ul" role="menu">
 									<li>
-										<a href=""  >ES安装教程</a>
+										<a href="#">ES安装教程</a>
 									</li>
 									<li>
-										<a href=""  >ES使用帮助</a>
+										<a href="#">ES使用帮助</a>
 									</li>
 									<li>
-										<a href=""  >ES主题及应用开发</a>
+										<a href="#">ES主题及应用开发</a>
 									</li>
 									<li>
-										<a href=""  >网校运营知识</a>
+										<a href="#">网校运营知识</a>
 									</li>
 								</ul>
 							</li>
@@ -79,16 +106,16 @@
 								</a>
 								<ul class="dropdown-menu son-ul" role="menu">
 									<li>
-										<a href=""  >全部资讯</a>
+										<a href="#">全部资讯</a>
 									</li>
 									<li>
-										<a href=""  >ES动态</a>
+										<a href="#">ES动态</a>
 									</li>
 									<li>
-										<a href=""  >行业动态</a>
+										<a href="#">行业动态</a>
 									</li>
 									<li>
-										<a href=""  >老魏说</a>
+										<a href="#">老魏说</a>
 									</li>
 								</ul>
 							</li>
@@ -99,50 +126,50 @@
 								</a>
 								<ul class="dropdown-menu son-ul" role="menu">
 									<li>
-										<a href=""  >所有社区</a>
+										<a href="#">所有社区</a>
 									</li>
 									<li>
-										<a href=""  >开发者社区</a>
+										<a href="#">开发者社区</a>
 									</li>
 									<li>
-										<a href=""  >云平台用户反馈</a>
+										<a href="#">云平台用户反馈</a>
 									</li>
 									<li>
-										<a href=""  >ES安装讨论组</a>
+										<a href="#">ES安装讨论组</a>
 									</li>
 									<li>
-										<a href=""  >给ES提建议</a>
+										<a href="#">给ES提建议</a>
 									</li>
 									<li>
-										<a href=""  >气球鱼教务中心</a>
+										<a href="#">气球鱼教务中心</a>
 									</li>
 								</ul>
 							</li>
 							<li class="">
-								<a href=""  >会员专区</a>
+								<a href="#">会员专区</a>
 							</li>
 							<li class="">
-								<a href=""  >开放云平台</a>
+								<a href="#">开放云平台</a>
 							</li>
 							<li >
-								<a href="" class="dropdown-toggle" data-toggle="dropdown" >
+								<a href=""class="dropdown-toggle" data-toggle="dropdown" >
 									关于我们
 									<b class="caret"></b>
 								</a>
 								<ul class="dropdown-menu son-ul" role="menu">
 									<li>
-										<a href=""  >加入我们</a>
+										<a href="#">加入我们</a>
 									</li>
 									<li>
-										<a href=""  >气球鱼学院</a>
+										<a href="#">气球鱼学院</a>
 									</li>
 									<li>
-										<a href="" >EduSoho官网网站</a>
+										<a href="#">EduSoho官网网站</a>
 									</li>
 								</ul>
 							</li>
 							<li class="">
-								<a href=""   >移动端</a>
+								<a href="#">移动端</a>
 							</li>
 						</ul>
 
@@ -153,9 +180,8 @@
 				<div class="row">
 					<div class="col-xs-8 left-con">
 						<div class="banner">
-							<!-- <img src="images/1.png" alt="">
 							-->
-							<!-- ++++轮播图 -->
+							<!-- 轮播图 -->
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 								<!-- Indicators -->
 								<ol class="carousel-indicators">
@@ -236,7 +262,7 @@
 						<div class="es-box course">
 							<h2>二次开发课程</h2>
 							<ul class="row">
-								<li class="col-xs-4 es-course  ">
+								<li class="col-xs-4 es-course jseg" id="ec1">
 									<div class="es-course-list">
 										<div >
 											<img src="images/kc.png"  ></div>
@@ -250,10 +276,22 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+										<div class="hidden-con" id="hid1">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
-								<li class="col-xs-4 es-course ">
+								<li class="col-xs-4 es-course jseg" >
 									<div class="es-course-list">
 										<div >
 											<img src="images/kc.png"  ></div>
@@ -267,10 +305,22 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+										<div class="hidden-con">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
-								<li class="col-xs-4 es-course ">
+								<li class="col-xs-4 es-course jseg" id="ec2">
 									<div class="es-course-list">
 										<div >
 											<img src="images/kc.png"  ></div>
@@ -284,10 +334,22 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+<div class="hidden-con">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
-								<li class="col-xs-4 es-course ">
+								<li class="col-xs-4 es-course jseg" id="ec3">
 									<div class="es-course-list">
 										<div >
 											<img src="images/kc.png"  ></div>
@@ -301,10 +363,22 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+<div class="hidden-con">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
-								<li class="col-xs-4 es-course ">
+								<li class="col-xs-4 es-course jseg" >
 									<div class="es-course-list">
 										<div >
 											<img src="images/kc.png"  ></div>
@@ -318,10 +392,22 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+<div class="hidden-con">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
-								<li class="col-xs-4 es-course ">
+								<li class="col-xs-4 es-course jseg" >
 									<div class="es-course-list">
 										<div  >
 											<img src="images/kc.png"  ></div>
@@ -335,7 +421,19 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+<div class="hidden-con">
+											<a href="">
+												<div class="row">
+													<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+													<div class="col-xs-8">
+														<h4>云之梦</h4>
+														<h4>ES开发课程</h4>
+													</div>
+												</div>
+												<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+												<h2>EduSoho主...</h2>
+											</a>
+										</div>
 									</div>
 								</li>
 								<li class="col-xs-4 es-course ">
@@ -352,7 +450,19 @@
 												<a  href="">泰微课啡鸟</a>
 											</span>
 										</div>
-
+											<div class="hidden-con">
+												<a href="">
+													<div class="row">
+														<div class="col-xs-4"><img style="width:60px;height:60px;" src="images/jy.png" alt=""></div>
+														<div class="col-xs-8">
+															<h4>云之梦</h4>
+															<h4>ES开发课程</h4>
+														</div>
+													</div>
+													<p>略懂代码/设计/前端/程序/运营/产品/前台/售后/服务/打妖怪/拉仇恨/扫地/抹桌/...</p>
+													<h2>EduSoho主...</h2>
+												</a>
+										 </div>
 									</div>
 								</li>
 								<li class="col-xs-4 es-course ">
@@ -719,6 +829,6 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
 </body>
 	</html>

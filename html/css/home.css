@@ -240,6 +240,7 @@ color: #222;
 	margin-bottom: 20px;
 }
 .es-course-list{
+	position: relative;
 	margin-bottom: 20px;
 }
 /*home-menu*/
@@ -316,7 +317,10 @@ color: #ff5d42;
 	width: 380px;
 }
 
-.panel a,a:hover{
+.panel a{
+	color: #666!important;
+}
+.panel a:hover{
 	color: #666!important;
 }
 .banquan{
@@ -332,4 +336,26 @@ color: #ff5d42;
   filter: alpha(opacity=90);
   outline: 0;
   opacity: .5;
+}
+
+.hidden-con {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 219px;
+	height: 243px;
+	background-color:#07B984;
+	display: none;
+	padding: 10px;
+}
+.hidden-con p {
+	color: #fff;
+	padding: 20px;5px;
+}
+.hidden-con h4 {
+	color: #fff;
+	margin-bottom: 15px;
+}
+.hidden-con h2 {
+	color: #fff;
 }
